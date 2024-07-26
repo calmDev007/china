@@ -10,14 +10,14 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className='left' data-aos='fade-down-right'>
-                <img src={val.cover} alt='' />
+                <img src={val.cover} alt='' style={{ width: "auto", height: '450px' }}/>
               </div>
               <div className='right' data-aos='fade-down-left'>
-                <Heading title='About Me' />
+                <Heading title='About Taizhou Yuema ' />
                 <p>{val.desc}</p>
                 <p>{val.desc1}</p>
                 <button>Download CV</button>
-                <button className='primaryBtn'>Download CV</button>
+                
               </div>
             </>
           ))}

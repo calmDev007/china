@@ -33,57 +33,57 @@ export const navlink = [
 export const home = [
   {
     text: "WE ARE",
-    name: "Taizhou Huangyan Yuema Industry and Trade Co., ltd",
+    name: "Taizhou Yuema Mold",
     chinesename : "台州市跃马工贸有限公司",
-    post: "From concept to reality",
-    design: "Defining tomorrow's form",
+    post: "Molten Mastery",
+    design: "Casting tomorrow",
     desc: "Taizhou huangyan yuema industry and trade  Co., Ltd. is an enterprise mainly focusing on the design and manufacture of mould. yuema is located in the West City Industrial Park of Huangyan. Based on the concept of people-oriented, we has gathered talents with rich technology and management experience in the industry and set up a joint venture.",
 
   },
 ]
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    cover: "./images/man.png",
+    desc: " Our team is full of talented people, including senior designers, project managers, technicians etc. Among them, there are provincial labor models, Taizhou craftsmen, top-notch technicians, city-level pacesetters and so on. We also have the world's top quality partners, which can meet the procurement demand of all moulds from raw materials to standard parts, hot runners and plastic raw materials.Based on past experience in design and manufacturing, the company team has accumulated abundant large data of all kinds of moulds, up to3000.",
+    desc1: "The chairman has 30 years experiences on mould manufacture. He is proficient in management and technique and has accumulated rich experience in injection moulds especially for the automobile and household appliances industry while work for many important projects.",
+    cover: "../src/components/data/images/about1.jpg",
   },
 ]
 export const services = [
   {
     id: 1,
     icon: <Settings />,
-    title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Custom Mold Design",
+    desc: "Custom mold design services provide tailored solutions using advanced CAD modeling and 3D simulation to ensure precision and reliability. Clients benefit from expert material selection, prototype development, and a collaborative design process.",
   },
   {
     id: 2,
     icon: <CropRotate />,
-    title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Mold Manufacturing",
+    desc: "Mold manufacturing services encompass the production of high-precision molds using advanced machinery and techniques. These services ensure the creation of durable, reliable molds, quality control, and testing to meet stringent industry standards.",
   },
   {
     id: 3,
     icon: <ViewInAr />,
-    title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Prototyping",
+    desc: "Prototyping services involve creating preliminary models of molds to test and validate designs before full-scale production. These services help identify and resolve potential issues early, ensuring the final mold meets all specifications and performs reliably. ",
   },
   {
     id: 4,
     icon: <PieChart />,
-    title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Mold Maintenance",
+    desc: "Mold maintenance and repair services involve routine inspections and repairs to keep molds functioning effectively. This includes addressing wear and tear, fixing defects, and performing necessary refurbishments to ensure molds remain reliable and efficient, and extending their lifespan.",
   },
   {
     id: 5,
     icon: <Code />,
-    title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Injection Molding",
+    desc: "Injection molding services involve using custom molds to produce high-quality plastic parts through a precise, automated process. This includes the injection of molten material into molds, cooling, and ejection of finished parts.",
   },
   {
     id: 6,
     icon: <BarChart />,
-    title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Quality Control",
+    desc: "Quality control services involve rigorous inspection and testing of molds and checking for defects, verifying dimensions, and ensuring overall functionality and reliability, guaranteeing high-quality results and consistency.",
   },
 ]
 export const project = [
@@ -159,24 +159,24 @@ export const portfolio = [
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-1.png",
-    name: "Alamin Musa",
-    post: "Front End Developer",
+    text: "Top-notch mold manufacturing with precise craftsmanship and reliable results. Friendly service and timely delivery make them a trusted partner.",
+    image: "../src/components/data/images/sexy Mature Chinese Man~~_.jpg",
+    name: "Sourav Mahajan",
+    post: "Quality Assurance Specialist ",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
-    image: "./images/testimonials/team-2.png",
+    text: "Exceptional precision and quality in mold manufacturing, ensuring reliable and durable products. Outstanding customer service and timely delivery set them apart in the industry.",
+    image: "../src/components/data/images/download (2).jpg",
     name: "Alex Ander",
-    post: "Back End Developer",
+    post: "Senior expert",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "Expertly crafted molds with unmatched precision and durability. Excellent customer service and prompt delivery ensure a seamless experience.",
     image: "./images/testimonials/team-3.png",
     name: "GorkCoder",
-    post: "React Developer",
+    post: "Executive Officer",
   },
 ]
 export const blog = [

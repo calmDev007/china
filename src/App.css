@@ -9,7 +9,7 @@
   --secondaryBackground: #2f3030;
   --primaryColor: #e0a80d;
   --greyDark: #7d8792;
-  --headingColor: #2d2e2e;
+  --headingColor: #000000;
   --white: #fff;
   --black: #000;
   --sliver: #bac8d3;
@@ -129,7 +129,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../src/components/data/images/download1.jpg");
+  background-image: url("../src/components/data/images/Report delivers insight into the international and China all-electric injection ….jpg");
   
   background-size: cover;
   background-attachment: fixed;
@@ -206,7 +206,7 @@ section {
   position: relative;
 }
 .hero.counter::after {
-  background-image: url("../public/images/some-facts-bg.png");
+  background-image: url("../images/some-facts-bg.png");
   height: 50vh;
 }
 .counter h1 {
@@ -277,7 +277,7 @@ article .box:hover .overlay {
   text-align: center;
 }
 .testimonials::after {
-  background-image: url("../public/images/testimonials-bg.png");
+  background-image: url("../images/testimonials-bg.png");
 }
 .testimonials .box {
   max-width: 60%;
