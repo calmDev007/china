@@ -11,10 +11,13 @@ export const Hero = () => {
             <h3 className='fontSize' data-aos='fade-right'>
               {val.text}
             </h3>
-            <h1>
+            <h1 style={{
+              whiteSpace: 'nowrap',
+              width: 'auto',
+            }}>
               <Typewriter
                 options={{
-                  strings: [`${val.name}`,`${val.chinesename}`, `${val.post}`, `${val.design}`],
+                  strings: [`${val.name}`, `${val.chinesename}`, `${val.post}`, `${val.design}`],
                   autoStart: true,
                   loop: true,
                 }}
