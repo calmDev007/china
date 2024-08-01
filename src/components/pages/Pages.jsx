@@ -23,7 +23,7 @@ export const Pages = () => {
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/contact' component={Contact} />
         </Switch>
-        <Footer />
+      <Footer/>
       </Router>
     </>
   )
